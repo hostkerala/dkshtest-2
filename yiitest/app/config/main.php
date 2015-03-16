@@ -70,10 +70,10 @@ return array(
 		),
 
 		'db' => array(
-			'connectionString' => 'mysql:host=my14344.d15579.myhost.ro;dbname=ionut_titei_ro_test012',
+			'connectionString' =>'mysql:host=serwer1575451.home.pl;dbname=17068404_0000001',
 			'emulatePrepare' => true,
-			'username' => '15579test012',
-			'password' => 'test012345',
+			'username' => '17068404_0000001',
+			'password' => 'test123400',
 			'charset' => 'utf8',
 		),
 

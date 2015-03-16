@@ -90,6 +90,7 @@ class Categories extends CActiveRecord
 	public static function getCategoriesFilterList()
 	{
 		$catlist = Categories::model()->findAll();
+                $dropdownCatList = array();
 		foreach ($catlist as $key => $category) {
 			$dropdownCatList[$key]['label'] = $category->name;
 			$dropdownCatList[$key]['url'] = Yii::app()->createUrl('/topic/index', array('category_id' => $category->id));
