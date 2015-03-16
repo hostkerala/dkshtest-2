@@ -1,0 +1,1409 @@
+2013/08/17 19:42:36 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:43 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:44 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:47 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:47:59 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:01 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:02 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:48:44 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:22 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:49:31 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:21 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:52:24 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:42 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:45 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:54:57 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:55:15 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:57:36 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:58:20 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 19:59:40 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:00:12 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:02:03 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:11 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:03:58 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:04:36 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:06:23 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:12:59 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (196)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:41:39 [error] [php] Undefined variable: model (/home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php:214)
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): AuthController->runAction()
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): AuthController->run()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CWebApplication->run()
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (214)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:41:51 [error] [php] Undefined variable: model (/home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php:214)
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): AuthController->runAction()
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): AuthController->run()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CWebApplication->run()
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (214)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:54:03 [error] [php] Undefined variable: haComp (/home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php:171)
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): AuthController->runAction()
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): AuthController->runActionWithFilters()
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): AuthController->run()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CWebApplication->run()
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (171)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 20:54:47 [error] [exception.Exception] exception 'Exception' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php:150
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php(39): Hybrid_Auth::initialize(Array)
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/components/HybridAuthIdentity.php(39): Hybrid_Auth->__construct(Array)
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php(152): HybridAuthIdentity->__construct()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/actions/CInlineAction.php(49): AuthController->actionHybridLogin()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): CController->run('hybridLogin')
+#8 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/auth/hybri...')
+#9 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+HTTP_REFERER=http://playground.ionut-titei.ro/oDeskTest/yiitest/public/user/auth/login
+---
+2013/08/17 20:55:51 [error] [exception.Exception] exception 'Exception' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php:150
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php(39): Hybrid_Auth::initialize(Array)
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/components/HybridAuthIdentity.php(39): Hybrid_Auth->__construct(Array)
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php(152): HybridAuthIdentity->__construct()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/actions/CInlineAction.php(49): AuthController->actionHybridLogin()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): CController->run('hybridLogin')
+#8 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/auth/hybri...')
+#9 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+HTTP_REFERER=http://playground.ionut-titei.ro/oDeskTest/yiitest/public/user/auth/login
+---
+2013/08/17 20:55:54 [error] [exception.Exception] exception 'Exception' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php:150
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php(39): Hybrid_Auth::initialize(Array)
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/components/HybridAuthIdentity.php(39): Hybrid_Auth->__construct(Array)
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php(152): HybridAuthIdentity->__construct()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/actions/CInlineAction.php(49): AuthController->actionHybridLogin()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): CController->run('hybridLogin')
+#8 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/auth/hybri...')
+#9 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+HTTP_REFERER=http://playground.ionut-titei.ro/oDeskTest/yiitest/public/user/auth/login
+---
+2013/08/17 20:56:12 [error] [exception.Exception] exception 'Exception' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php:150
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php(39): Hybrid_Auth::initialize(Array)
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/components/HybridAuthIdentity.php(39): Hybrid_Auth->__construct(Array)
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php(152): HybridAuthIdentity->__construct()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/actions/CInlineAction.php(49): AuthController->actionHybridLogin()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): CController->run('hybridLogin')
+#8 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/auth/hybri...')
+#9 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+HTTP_REFERER=http://playground.ionut-titei.ro/oDeskTest/yiitest/public/user/auth/login
+---
+2013/08/17 20:56:15 [error] [exception.Exception] exception 'Exception' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php:150
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/HybridAuth/hybridauth-2.1.2/hybridauth/Hybrid/Auth.php(39): Hybrid_Auth::initialize(Array)
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/components/HybridAuthIdentity.php(39): Hybrid_Auth->__construct(Array)
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php(152): HybridAuthIdentity->__construct()
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/actions/CInlineAction.php(49): AuthController->actionHybridLogin()
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): CController->run('hybridLogin')
+#8 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/auth/hybri...')
+#9 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+HTTP_REFERER=http://playground.ionut-titei.ro/oDeskTest/yiitest/public/user/auth/login
+---
+2013/08/17 20:58:42 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php:171
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/actions/CInlineAction.php(49): AuthController->actionHybridLogin()
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): CController->run('hybridLogin')
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/auth/hybri...')
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#8 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+HTTP_REFERER=http://playground.ionut-titei.ro/oDeskTest/yiitest/public/user/auth/login
+---
+2013/08/17 20:58:48 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'Authentication failed! Facebook returned an invalid user id.' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php:171
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/actions/CInlineAction.php(49): AuthController->actionHybridLogin()
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#3 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(282): CController->run('hybridLogin')
+#5 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/auth/hybri...')
+#6 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#7 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#8 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user/auth/hybridLogin/provider/facebook
+HTTP_REFERER=http://playground.ionut-titei.ro/oDeskTest/yiitest/public/user/auth/login
+---
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "slug" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:18:39 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (202)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/app/modules/user/controllers/AuthController.php (166)
+in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php (16)
+2013/08/17 21:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#1 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/sites/ionut-titei.ro/public_html/playground/oDeskTest/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/oDeskTest/yiitest/public/user
+---
