@@ -137,11 +137,11 @@ class m150316_163008_initial_db_setup extends CDbMigration
                   `content` TEXT NOT NULL,
                   `status` INT(11) NULL,
                   `thumbnail` VARCHAR(250) NOT NULL,
-                  `id` INT NOT NULL,
-                  PRIMARY KEY (`id`))
-                ENGINE = InnoDB
-                AUTO_INCREMENT = 1
-                DEFAULT CHARACTER SET = utf8;
+                  `id` INT NOT NULL AUTO_INCREMENT,
+                    PRIMARY KEY (`id`))
+                    ENGINE = InnoDB
+                    AUTO_INCREMENT = 1
+                    DEFAULT CHARACTER SET = utf8;
 
 
                 -- -----------------------------------------------------
