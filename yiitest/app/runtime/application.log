@@ -2307,3 +2307,325 @@ REQUEST_URI=/yiitest/public/topic/index?category_id=1
 in /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/widgets/TbGridView.php (66)
 in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php (92)
 in /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php (137)
+2015/03/17 05:11:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.rel_topic_skills' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `rel_topic_skills`.
+in /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/widgets/TbGridView.php (66)
+in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php (92)
+in /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php (137)
+2015/03/17 05:11:48 [error] [exception.CDbException] exception 'CDbException' with message 'The table "rel_topic_skills" for active record class "RelTopicSkills" cannot be found in the database.' in /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RelTopicSkills))
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(383): CActiveRecord->getTableSchema()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(278): CJoinElement->__construct(Object(CActiveFinder), Object(CHasOneRelation), Object(CJoinElement), 1)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(296): CActiveFinder->buildJoinTree(Object(CJoinElement), 'relTopicSkills')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(909): CActiveFinder->__construct(Object(Topic), Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1604): CActiveRecord->getActiveFinder(Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#12 /home/roopz/www/dksh2/vendors/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#13 /home/roopz/www/dksh2/vendors/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#14 /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/widgets/TbGridView.php(66): CGridView->init()
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(147): TbGridView->init()
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#17 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php(92): CBaseController->widget('bootstrap.widge...', Array)
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#22 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(137): CController->render('admin', Array)
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionIndex()
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#26 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#27 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#28 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#29 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#30 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#31 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#32 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#33 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/index')
+#34 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#35 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#36 {main}
+REQUEST_URI=/yiitest/public/topic/index?category_id=1
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/17 08:01:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.rel_topic_skills' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `rel_topic_skills`.
+in /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/widgets/TbGridView.php (66)
+in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php (92)
+in /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php (137)
+2015/03/17 08:01:18 [error] [exception.CDbException] exception 'CDbException' with message 'The table "rel_topic_skills" for active record class "RelTopicSkills" cannot be found in the database.' in /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RelTopicSkills))
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(383): CActiveRecord->getTableSchema()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(278): CJoinElement->__construct(Object(CActiveFinder), Object(CHasOneRelation), Object(CJoinElement), 1)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(296): CActiveFinder->buildJoinTree(Object(CJoinElement), 'relTopicSkills')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(909): CActiveFinder->__construct(Object(Topic), Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1604): CActiveRecord->getActiveFinder(Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#12 /home/roopz/www/dksh2/vendors/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#13 /home/roopz/www/dksh2/vendors/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#14 /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/widgets/TbGridView.php(66): CGridView->init()
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(147): TbGridView->init()
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#17 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php(92): CBaseController->widget('bootstrap.widge...', Array)
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#22 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(137): CController->render('admin', Array)
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionIndex()
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#26 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#27 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#28 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#29 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#30 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#31 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#32 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#33 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/index')
+#34 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#35 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#36 {main}
+REQUEST_URI=/yiitest/public/topic/index
+---
+2015/03/17 08:03:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.rel_topic_skills' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `rel_topic_skills`.
+in /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/widgets/TbGridView.php (66)
+in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php (92)
+in /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php (137)
+2015/03/17 08:03:22 [error] [exception.CDbException] exception 'CDbException' with message 'The table "rel_topic_skills" for active record class "RelTopicSkills" cannot be found in the database.' in /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RelTopicSkills))
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(383): CActiveRecord->getTableSchema()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(278): CJoinElement->__construct(Object(CActiveFinder), Object(CHasOneRelation), Object(CJoinElement), 1)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(296): CActiveFinder->buildJoinTree(Object(CJoinElement), 'relTopicSkills')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(909): CActiveFinder->__construct(Object(Topic), Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1604): CActiveRecord->getActiveFinder(Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#12 /home/roopz/www/dksh2/vendors/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#13 /home/roopz/www/dksh2/vendors/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#14 /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/widgets/TbGridView.php(66): CGridView->init()
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(147): TbGridView->init()
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#17 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php(92): CBaseController->widget('bootstrap.widge...', Array)
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#22 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(137): CController->render('admin', Array)
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionIndex()
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#26 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#27 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#28 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#29 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#30 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#31 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#32 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#33 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/index')
+#34 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#35 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#36 {main}
+REQUEST_URI=/yiitest/public/topic/index
+---
+2015/03/17 08:06:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2005] Unknown MySQL server host 'serwer1575451.home.pl' (0)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/index
+---
+2015/03/17 08:07:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.rel_topic_skills' doesn't exist. The SQL statement executed was: DELETE FROM `rel_topic_skills` WHERE topic_id=:topic_id.
+in /home/roopz/www/dksh2/yiitest/app/models/Topic.php (100)
+in /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php (76)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:07:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.rel_topic_skills' doesn't exist. The SQL statement executed was: DELETE FROM `rel_topic_skills` WHERE topic_id=:topic_id' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbCommand.php(1302): CDbCommand->execute(Array)
+#1 /home/roopz/www/dksh2/yiitest/app/models/Topic.php(100): CDbCommand->delete('rel_topic_skill...', 'topic_id=:topic...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1097): Topic->afterSave()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#4 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(76): CActiveRecord->save()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionCreate()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/create')
+#16 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#18 {main}
+REQUEST_URI=/yiitest/public/topic/create
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/create
+---
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "first_name" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "last_name" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:13:16 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (54)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:14:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.pages' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `pages`.
+in /home/roopz/www/dksh2/yiitest/app/modules/page/controllers/admin/PageController.php (57)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:14:41 [error] [exception.CDbException] exception 'CDbException' with message 'The table "pages" for active record class "Page" cannot be found in the database.' in /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Page))
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /home/roopz/www/dksh2/yiitest/app/modules/page/controllers/admin/PageController.php(57): CActiveRecord->__construct()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): PageController->actionCreate()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('page/admin/page...')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/public/page/admin/page/create
+HTTP_REFERER=http://dksh2.test/yiitest/public/admin/settings
+---
+2015/03/17 08:16:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.pages' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `pages`.
+in /home/roopz/www/dksh2/yiitest/app/modules/page/controllers/admin/PageController.php (57)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/17 08:16:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "pages" for active record class "Page" cannot be found in the database.' in /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Page))
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /home/roopz/www/dksh2/yiitest/app/modules/page/controllers/admin/PageController.php(57): CActiveRecord->__construct()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): PageController->actionCreate()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('page/admin/page...')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitest/public/page/admin/page/create
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/admin/user/view/id/2
+---
+2015/03/17 08:38:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/roopz/www/dksh2/vendors/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('page/admin/page...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/public/page/admin/page/create
+---
+2015/03/17 08:38:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/roopz/www/dksh2/vendors/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/admin/user...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiitest/public/user/admin/user/view/id/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/admin/user/create
+---
+2015/03/17 19:24:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17068404_0000001.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2015/03/17 19:27:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'comments'. The SQL statement executed was: DROP TABLE comments;.
+2015/03/17 19:27:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'comments'. The SQL statement executed was: DROP TABLE comments;' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbMigration.php(164): CDbCommand->execute(Array)
+#1 /home/roopz/www/dksh2/yiitest/app/migrations/m130816_211233_add_comments_table.php(24): CDbMigration->execute('DROP TABLE comm...')
+#2 /home/roopz/www/dksh2/vendors/yii/framework/cli/commands/MigrateCommand.php(410): m130816_211233_add_comments_table->down()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/cli/commands/MigrateCommand.php(145): MigrateCommand->migrateDown('m130816_211233_...')
+#4 [internal function]: MigrateCommand->actionDown(Array)
+#5 /home/roopz/www/dksh2/vendors/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/console/CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CConsoleApplication->processRequest()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/yiic.php(33): CApplication->run()
+#10 /home/roopz/www/dksh2/yiitest/app/yiic.php(7): require_once('/home/roopz/www...')
+#11 {main}
+---
