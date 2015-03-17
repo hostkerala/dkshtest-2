@@ -112,8 +112,8 @@ return array(
 					"Google" => array(
 						"enabled" => true,
 						"keys" => array(
-							"id" => "1097309955025.apps.googleusercontent.com",
-							"secret" => "Z2Nr2B1abV14DCwfsF2Y9_H_",
+							"id" => "180785155645-b0ov8gh9j4mddir33nkdfg0tf2mpmdic.apps.googleusercontent.com",
+							"secret" => "A7PdKXSl__XqdZM6AfYNVzmF",
 						),
 						"scope" => "https://www.googleapis.com/auth/userinfo.profile " . "https://www.googleapis.com/auth/userinfo.email",
 						"access_type" => "online",
@@ -121,14 +121,14 @@ return array(
 					"Facebook" => array (
 						"enabled" => true,
 						"keys" => array (
-							"id" => "581741311888501",
-							"secret" => "ae697c9523c701c7e4d88d49c4052d41",
+							"id" => "843361889069040",
+							"secret" => "b7bb9b24c5ae59a673fb031c4de921e6",
 						),
 						"scope" => "email"
 					),
 				),
 
-				"debug_mode" => false,
+				"debug_mode" => true,
 
 				// to enable logging, set 'debug_mode' to true, then provide here a path of a writable file
 				"debug_file" => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR . 'hybridauth.log'
