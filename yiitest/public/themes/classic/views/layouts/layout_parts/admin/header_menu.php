@@ -62,7 +62,7 @@
                 'htmlOptions' => array('class' => 'pull-right'),
                 'items' => array(
                     array('label' => Yii::app()->user->name, 'url' => '#', 'items' => array(
-                        array('icon' => 'home', 'label' => 'Back to site', 'url' => '/'),
+                        array('icon' => 'home', 'label' => 'Back to site', 'url' => Yii::app()->createUrl('site/users')),
                         array('icon' => 'off', 'label' => 'Logout', 'url' => Yii::app()->createUrl('user/auth/logout')),
                     )),
                 ),
