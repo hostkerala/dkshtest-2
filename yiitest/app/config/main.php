@@ -50,6 +50,7 @@ return array(
 			'allowAutoLogin' => true,
 			'loginUrl' => array('/user/auth/login'),
 			'class' => 'application.modules.user.components.WebUser',
+                        'autoUpdateFlash' => false,
 		),
 		'config' => array('class' => 'GeneralConfig'),
 		'bootstrap' => array(

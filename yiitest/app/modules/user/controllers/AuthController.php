@@ -88,7 +88,7 @@ class AuthController extends Controller
 					)
 				);
 				$mail = new YiiMailer('forgot_password', array('activationUrl' => $activationUrl, 'user' => $user));
-				$mail->setFrom('from@example.com', 'John Doe');
+				$mail->setFrom('yiioverflow@gmail.com', 'Roopan');
 				$mail->setTo($user->email);
 				$mail->setSubject('Request password recovery.');
 				if ($mail->send()) {
@@ -96,7 +96,7 @@ class AuthController extends Controller
 				} else {
 					Yii::app()->user->setFlash('error', 'Error, please try again later');
 				}
-				$this->redirect('/');
+				$this->redirect(Yii::app()->createUrl('site/users'));
 			}
 		}
 
@@ -120,7 +120,7 @@ class AuthController extends Controller
 		);
 		if (!$user) {
 			Yii::app()->user->setFlash('success', "Incorrect activation code. Try requesting password recovery again");
-			$this->redirect('/');
+			$this->redirect(Yii::app()->createUrl('site/users'));
 		}
 		$model = new UserRecoveryForm;
 		if ($recoveryPostData) {
@@ -131,7 +131,7 @@ class AuthController extends Controller
 				$user->secret_key = NULL;
 				$user->save(FALSE);
 				Yii::app()->user->setFlash('success', "Password successfully changed");
-				$this->redirect('/');
+				$this->redirect(Yii::app()->createUrl('site/users'));
 			}
 		}
 		$this->render('recovery', array(
@@ -226,7 +226,7 @@ class AuthController extends Controller
 				Yii::app()->user->setFlash('error', 'Credentials are not valid!');
 			}
 			
-			$this->redirect(Yii::app()->createUrl(''));
+			$this->redirect(Yii::app()->createUrl('site/users'));
 			
 		}
 	}
