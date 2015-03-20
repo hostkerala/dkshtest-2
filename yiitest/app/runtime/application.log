@@ -2630,3 +2630,171 @@ Stack trace:
 #11 {main}
 ---
 2015/03/20 19:50:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table '17191726_0000001.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2015/03/20 12:07:21 [error] [php] opendir(/home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/assets/js/ckeditor): failed to open dir: Permission denied (/home/roopz/www/dksh2/vendors/yii/framework/utils/CFileHelper.php:141)
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/utils/CFileHelper.php(157): copyDirectoryRecursive()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/utils/CFileHelper.php(63): copyDirectoryRecursive()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CAssetManager.php(251): copyDirectory()
+#3 /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/components/Bootstrap.php(640): CAssetManager->publish()
+#4 /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/components/packages.php(12): Bootstrap->getAssetsUrl()
+#5 /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/components/Bootstrap.php(156): require()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): Bootstrap->init()
+#7 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CWebApplication->getComponent()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CWebApplication->preloadComponents()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CWebApplication->__construct()
+#10 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): createApplication()
+#11 /home/roopz/www/dksh2/yiitest/public/index.php(16): createWebApplication()
+REQUEST_URI=/yiitest/public/
+in /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/components/Bootstrap.php (640)
+in /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/components/packages.php (12)
+in /home/roopz/www/dksh2/yiitest/app/extensions/bootstrap/components/Bootstrap.php (156)
+2015/03/20 12:08:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.bootbox.min.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.bootbox.min.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/auth/login
+---
+2015/03/20 12:08:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/auth/login
+---
+2015/03/20 12:08:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.notify.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.notify.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/auth/login
+---
+2015/03/20 12:08:29 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/20 12:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.bootbox.min.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.bootbox.min.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/auth/login
+---
+2015/03/20 12:08:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.notify.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.notify.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/auth/login
+---
+2015/03/20 12:08:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/auth/login
+---
+2015/03/20 12:08:56 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/20 12:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.notify.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.notify.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/
+---
+2015/03/20 12:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.bootbox.min.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.bootbox.min.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/
+---
+2015/03/20 12:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/
+---
+2015/03/20 12:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.notify.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.notify.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/site/admin
+---
+2015/03/20 12:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.bootbox.min.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.bootbox.min.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/site/admin
+---
+2015/03/20 12:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/site/admin
+---
+2015/03/20 12:09:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.bootbox.min.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.bootbox.min.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/page/admin/page/create
+---
+2015/03/20 12:09:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.notify.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.notify.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/page/admin/page/create
+---
+2015/03/20 12:09:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/ckeditor/ckeditor.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/ckeditor/ckeditor.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/page/admin/page/create
+---
+2015/03/20 12:09:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/566aed1d/js/bootstrap.js".' in /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/566aed1d...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiitest/public/assets/566aed1d/js/bootstrap.js
+HTTP_REFERER=http://dksh2.test/yiitest/public/page/admin/page/create
+---

@@ -4,6 +4,10 @@
 <head></head>
 <body>
 
+<!-- Registering Bootstrap JS/CSS files -->    
+<?php Yii::app()->bootstrap->register(); ?>
+<!-- End Registering Bootstrap JS/CSS files --> 
+    
 <!-- Header Menu -->
 <?php  $this->renderPartial('//layouts/layout_parts/main/header_menu'); ?>
 <!-- End Header Menu -->
