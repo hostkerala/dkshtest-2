@@ -71,9 +71,9 @@ return array(
 		),
 
 		'db' => array(
-			'connectionString' =>'mysql:host=serwer1575451.home.pl;dbname=17068404_0000001',
+			'connectionString' =>'mysql:host=serwer1505663.home.pl;dbname=17191726_0000001',
 			'emulatePrepare' => true,
-			'username' => '17068404_0000001',
+			'username' => '17191726_0000001',
 			'password' => 'test123400',
 			'charset' => 'utf8',
 		),

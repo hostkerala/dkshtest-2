@@ -93,9 +93,9 @@ class Categories extends CActiveRecord
                 $dropdownCatList = array();
 		foreach ($catlist as $key => $category) {
 			$dropdownCatList[$key]['label'] = $category->name;
-			$dropdownCatList[$key]['url'] = Yii::app()->createUrl('/topic/index', array('category_id' => $category->id));
+			$dropdownCatList[$key]['url'] = Yii::app()->createUrl('topic/index', array('category_id' => $category->id));
 		}
-		array_unshift($dropdownCatList, array('label' => 'All', 'url' => '/topic/index'));
+		array_unshift($dropdownCatList, array('label' => 'All', 'url' => Yii::app()->createUrl('topic/index')));
 		return $dropdownCatList;
 	}
 
