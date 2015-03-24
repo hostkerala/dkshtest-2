@@ -160,4 +160,5 @@ class Topic extends CActiveRecord
                 return false;
             }
         }
+        
 }
