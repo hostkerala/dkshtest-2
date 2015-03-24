@@ -109,6 +109,9 @@ class UserController extends Controller
         {
             try
             {
+                
+                //FOR TESTING LIVE
+		//$folderName  = "/yiitest/public/uploads/users/".Yii::app()->user->getID()."/avatar/";
                 $folderName  = yii::app()->params['uploadDir'].Yii::app()->user->getID().DIRECTORY_SEPARATOR.'avatar'.DIRECTORY_SEPARATOR;   
                 //Make sure we have a filepath
                 if ($tmpName != "")

@@ -147,4 +147,17 @@ class Topic extends CActiveRecord
 			'criteria' => $criteria,
 		));
 	}
+        
+        public static function isAuthor($topicId)
+        {            
+           $topic = self::model()->findByPk($topicId);
+            if($topic->user_id == yii::app()->user->id)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 }

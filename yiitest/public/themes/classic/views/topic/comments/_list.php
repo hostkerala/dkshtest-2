@@ -10,7 +10,8 @@
                         <div class="col-sm-3 col-md-3">
                             <a href="#" class="thumbnail">
                                 <?php
-                                $user = User::model()->findByPk($comment->userId)                
+                                $user = User::model()->findByPk($comment->userId);
+                                
                                 ?>
                                <img src="<?php echo $user->avatar; ?>" 
                                alt="Photo">
@@ -18,9 +19,11 @@
                          </div>
                     </div>
                     <div class="span10"> 
-                        <a href="<?php  echo yii::app()->createUrl('topic/DeleteComments',array('id'=>$comment->id))  ?>" class="btn btn-danger btn-lg pull-right">
-                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>x
-                        </a>
+                        <?php if(Topic::isAuthor($comment->topicId)) { ?>
+                            <a href="<?php  echo yii::app()->createUrl('topic/DeleteComments',array('id'=>$comment->id))  ?>" class="btn btn-danger btn-lg pull-right">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>x
+                            </a>
+                        <?php  } ?>
 			<?=CHtml::decode($comment->content)?><br>
 			<span>By <strong><?=$comment->user->username?></strong> at <?=date('h:i, F, d Y', strtotime($comment->createdAt)); ?></span>
 			<hr>

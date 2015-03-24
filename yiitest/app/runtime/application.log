@@ -6111,3 +6111,6 @@ Stack trace:
 REQUEST_URI=/yiitest/public/topic/admin
 HTTP_REFERER=http://serwer1505663.home.pl/yiitest/public/topic/1
 ---
+2015/03/24 10:32:47 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
