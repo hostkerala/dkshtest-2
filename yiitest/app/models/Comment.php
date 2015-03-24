@@ -107,4 +107,18 @@ class Comment extends ActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+        public function isAbletoComment($userId, $topicId)
+	{
+            if(self::model()->findByAttributes(array('userId'=>$userId,'topicId'=>$topicId)))
+            {
+                return false;                
+            }
+            else
+            {
+                return true;
+            }
+	}
+        
+        
 }

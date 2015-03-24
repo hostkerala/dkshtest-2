@@ -41,7 +41,8 @@ class Contries extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('country_iso_2', 'length', 'max' => 2),
+			array('country_iso_2,country_name_en', 'required'),
+                        array('country_iso_2', 'length', 'max' => 2),
 			array('country_iso_3', 'length', 'max' => 3),
 			array('country_name_en, country_name_ru', 'length', 'max' => 64),
 			// The following rule is used by search().
@@ -97,4 +98,16 @@ class Contries extends CActiveRecord
 			'criteria' => $criteria,
 		));
 	}
+        
+        public function beforeDelete(){
+            foreach($this->states as $states)
+                $states->delete();
+            return parent::beforeDelete();
+        }
+        
+        public function getCountryNameFromStateId($stateId){
+            $states = States::model()->findByPk($stateId);
+            $country = Contries::model()->findAll($states->country_id);
+            return CHtml::listData($country,'id','country_name_en');
+        }
 }

@@ -29,7 +29,7 @@ class TopicController extends Controller
 		return array(
 			array(
 				'allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions' => array('admin', 'create', 'update', 'delete', 'index', 'view', 'comment'), 'users' => array('@'),
+				'actions' => array('admin', 'create', 'update', 'delete', 'index', 'view', 'comment', 'deleteComments'), 'users' => array('@'),
 			),
 			array(
 				'deny', // deny all users
@@ -46,6 +46,7 @@ class TopicController extends Controller
 	{
 		$comment = new Comment;
 		$model = $this->loadModel($id);
+                $postComment = $comment->isAbletoComment(Yii::app()->user->id,$model->id);
 
 		if (isset($_POST['Comment'])) {
 			if(Yii::app()->user->id != $model->user_id){
@@ -57,7 +58,7 @@ class TopicController extends Controller
 			}
 		}
 
-		$this->render('view', array('model' => $model, 'comment' => $comment));
+		$this->render('view', array('model' => $model, 'comment' => $comment, 'postComment'=>$postComment));
 	}
 
 	/**
@@ -161,5 +162,19 @@ class TopicController extends Controller
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
+	}
+        
+        public function actionDeleteComments($id)
+	{
+		$this->loadModelCommentsModel($id)->delete();
+                $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('index'));
+	}
+        
+        public function loadModelCommentsModel($id)
+	{
+		$model = Comments::model()->findByPk($id);
+		if ($model === null)
+			throw new CHttpException(404, 'The requested page does not exist.');
+		return $model;
 	}
 }

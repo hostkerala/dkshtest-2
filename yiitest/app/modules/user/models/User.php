@@ -20,7 +20,10 @@
 class User extends CActiveRecord
 {
 
-	const ROLE_USER = 0;
+	
+        public $country;
+    
+        const ROLE_USER = 0;
 	const ROLE_ADMIN = 1;
 
 	public $oldPassword;
@@ -80,7 +83,7 @@ class User extends CActiveRecord
 			array('password, email, username', 'required', 'on' => 'create'), //Scenario Create new User record
 			array('email', 'email'),
 			array('email, username', 'unique'),
-//            array('first_name, last_name, email, city_id, state_id','required'),
+                        array('city_id, state_id,email, username, country','required','on'=>'update'),
 			array('city_id', 'numerical', 'integerOnly' => true),
 			array('username, email', 'length', 'max' => 128),
 //			array('phone', 'length', 'max'=>64),

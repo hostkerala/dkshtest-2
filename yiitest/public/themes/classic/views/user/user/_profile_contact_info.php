@@ -1,3 +1,6 @@
+<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fileuploader/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+<script src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fileuploader/js/fileinput.min.js"></script>
+
 <script type="text/javascript">
     $(function () {
         $('#Skills').val('<?php echo $userModel->userSkillsString ?>')
@@ -7,30 +10,64 @@
     <div class="span7 ">
         <?php $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
             'id' => 'settingsProfileForm',
+            'htmlOptions'=>array('enctype'=>'multipart/form-data'),
         )); ?>
         <?php echo $form->textFieldRow($userModel, 'email'); ?>
         <?php echo $form->textFieldRow($userModel, 'username'); ?>
-        <?php echo $form->dropDownListRow(
-            $userModel,
-            'state_id',
-            CHtml::listData(States::model()->findAllByAttributes(array('country_id' => 223)),
-                'state_code',
-                'state_name_en'
-            ),
-            array('class' => 'span5',
-                'prompt' => '- Select State -',
-                'ajax' => array(
-                    'url' => $this->createUrl('/user/user/AjaxGetCityList'),
-                    'success' => "function(html) {
-                    $('#city_id').html(html);
-//                    $('#city_id').html('$('#city_id option:first').text());
-                   }",
-                    'data' => 'js:{state_code : $(this).val()}',
-                ))
+        
+        
+    <div class="row-fluid">
+        <div class="pull-left span6"> 
+        
+        <?php
+               if($userModel->state_id)
+               {                   
+                   $countryList = Contries::model()->getCountryNameFromStateId($userModel->state_id);
+                   $userModel->country = States::model()->with('country')->findByPk($userModel->state_id)->country->id;
+                   $statesList  = CHtml::listData(States::model()->findAllByAttributes(array('country_id'=>$userModel->country)),'id','state_name_en');                   
+               }
+               else
+               {
+                   $countryList = CHtml::listData(Contries::model()->findAll(),'id','country_name_en');
+                   $statesList  = array();
+                   
+               }
+        ?>
+        <div class="col-sm-6 col-md-3">
+           <a href="#" class="thumbnail">
+              <img src="<?php echo $userModel->avatar; ?>" 
+              alt="Photo">
+           </a>
+        </div>   
+            
+       <input name="avatar" id="avatar" type="file" class="file" data-preview-file-type="text" >
+            
+        <?php echo $form->dropDownListRow($userModel,'country',$countryList,
+                                array(
+                                'prompt'=>'Select Country',
+                                'ajax' => array(
+                                'type'=>'POST', 
+                                'url'=>Yii::app()->createUrl('admin/zipareas/getStates'),
+                                'update'=>'#User_state_id',
+                                'data'=>array('country_id'=>'js:this.value'),
+        )));?>
+        <?php echo $form->dropDownListRow($userModel,'state_id',$statesList, array(
+                        'prompt' => '- Select State -',
+                        'ajax' => array(
+                            'url' => $this->createUrl('/user/user/AjaxGetCityList'),
+                            'update'=>'#city_id',
+                            //'success' => "function(html) {
+                            //$('#city_id').html(html);
+        //                    $('#city_id').html('$('#city_id option:first').text());
+                           //}",
+                            'data' => 'js:{state_code : $(this).val()}',
+                        ))            
+                    ); ?>
+        </div> 
+    </div>        
 
-        ); ?>
         <?php echo $form->dropDownListRow($userModel, 'city_id', $userModel->userCityList,
-            array('class' => 'span5',
+            array(
                 'id' => 'city_id',
                 'empty' => '- Select City -'
         )); ?>
@@ -45,7 +82,7 @@
                     'options' => array(
                         'tags' => Skill::getAllSkill(),
                         'placeholder' => 'disciplines',
-                        'width' => '40%',
+                        'width' => '43%',
                         'tokenSeparators' => array(',', ' ')
                     ))); ?>
             </div>
@@ -76,3 +113,11 @@
         <?php $this->endWidget(); ?>
     </div>
 </div>
+
+<script>
+// initialize with defaults
+$("#avatar").fileinput();
+
+// with plugin options
+$("#avatar").fileinput({'showUpload':false, 'previewFileType':'any'});
+</script>    

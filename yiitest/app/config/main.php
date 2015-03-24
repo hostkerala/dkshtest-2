@@ -38,7 +38,7 @@ return array(
 			),
 			'password' => '123321',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters' => array('127.0.0.1', '::1'),
+			//'ipFilters' => array('127.0.0.1', '::1'),
 		),
 
 	),
@@ -68,16 +68,13 @@ return array(
 				'<controller:\w+>/<action:\w+>' => '<controller>/<action>',
 				'admin/<controller:\w+>/<action:\w+>' => 'admin/<controller>/<action>',
 			),
+		),  
+            
+                'db' => array_merge(
+			//require( dirname(__FILE__).DIRECTORY_SEPARATOR. 'db-live.php' ), // Prod DB Conf
+			require( dirname(__FILE__).DIRECTORY_SEPARATOR. 'db-local.php' ) // DEV DB Conf
 		),
-
-		'db' => array(
-			'connectionString' =>'mysql:host=serwer1505663.home.pl;dbname=17191726_0000001',
-			'emulatePrepare' => true,
-			'username' => '17191726_0000001',
-			'password' => 'test123400',
-			'charset' => 'utf8',
-		),
-
+            
 		'errorHandler' => array(
 			// use 'site/error' action to display errors
 			'errorAction' => 'site/error',
@@ -104,6 +101,7 @@ return array(
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params' => array(
+            'uploadDir'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'uploads'.DIRECTORY_SEPARATOR.'users'.DIRECTORY_SEPARATOR,   
 		'hybridAuthIdentity' => array(
 			'class' => 'application.components.HybridAuthIdentity',
 			'config' => array(

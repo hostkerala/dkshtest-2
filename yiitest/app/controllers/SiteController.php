@@ -80,6 +80,7 @@ class SiteController extends Controller
 		$this->layout = '//layouts/admin';
 		$this->render('admin/index');
 	}
+        
 
 	/**
 	 * List users

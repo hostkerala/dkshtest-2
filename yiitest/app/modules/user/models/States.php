@@ -42,6 +42,7 @@ class States extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('country_id', 'numerical', 'integerOnly' => true),
+                        array('country_id, state_code, state_name_en', 'required'),
 			array('state_code, state_name_en, state_name_ru', 'length', 'max' => 64),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -57,7 +58,8 @@ class States extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'country' => array(self::BELONGS_TO, 'Countries', 'country_id'),
+			'country' => array(self::BELONGS_TO, 'Contries', 'country_id'),
+                        'cities' => array(self::HAS_MANY, 'Zipareas', 'state'),
 		);
 	}
 
@@ -96,4 +98,11 @@ class States extends CActiveRecord
 			'criteria' => $criteria,
 		));
 	}
+        
+        public function beforeDelete(){
+            foreach($this->cities as $cities)
+                $cities->delete();
+            return parent::beforeDelete();
+        }        
+
 }

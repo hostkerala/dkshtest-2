@@ -32,6 +32,25 @@ class m150316_163008_initial_db_setup extends CDbMigration
 
 
                 -- -----------------------------------------------------
+                -- Table `17191726_0000001`.`topic`
+                -- -----------------------------------------------------
+                CREATE TABLE IF NOT EXISTS `17191726_0000001`.`topic` (
+                  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                  `topic_end` INT(11) NOT NULL,
+                  `user_id` INT(11) NOT NULL,
+                  `category_id` INT(11) NOT NULL,
+                  `title` VARCHAR(250) NOT NULL,
+                  `content` TEXT NOT NULL,
+                  `status` INT(11) NULL,
+                  `thumbnail` VARCHAR(250) NOT NULL,
+                  `id` INT NOT NULL AUTO_INCREMENT,
+                  PRIMARY KEY (`id`))
+                ENGINE = InnoDB
+                AUTO_INCREMENT = 1
+                DEFAULT CHARACTER SET = utf8;
+
+
+                -- -----------------------------------------------------
                 -- Table `17191726_0000001`.`zipareas`
                 -- -----------------------------------------------------
                 CREATE TABLE IF NOT EXISTS `17191726_0000001`.`zipareas` (
@@ -126,25 +145,6 @@ class m150316_163008_initial_db_setup extends CDbMigration
 
 
                 -- -----------------------------------------------------
-                -- Table `17191726_0000001`.`topic`
-                -- -----------------------------------------------------
-                CREATE TABLE IF NOT EXISTS `17191726_0000001`.`topic` (
-                  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-                  `topic_end` INT(11) NOT NULL,
-                  `user_id` INT(11) NOT NULL,
-                  `category_id` INT(11) NOT NULL,
-                  `title` VARCHAR(250) NOT NULL,
-                  `content` TEXT NOT NULL,
-                  `status` INT(11) NULL,
-                  `thumbnail` VARCHAR(250) NOT NULL,
-                  `id` INT NOT NULL AUTO_INCREMENT,
-                    PRIMARY KEY (`id`))
-                    ENGINE = InnoDB
-                    AUTO_INCREMENT = 1
-                    DEFAULT CHARACTER SET = utf8;
-
-
-                -- -----------------------------------------------------
                 -- Table `17191726_0000001`.`comments`
                 -- -----------------------------------------------------
                 CREATE TABLE IF NOT EXISTS `17191726_0000001`.`comments` (
@@ -154,19 +154,17 @@ class m150316_163008_initial_db_setup extends CDbMigration
                   `updatedAt` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
                   `userId` INT NULL,
                   `topicId` INT NULL,
-                  `user_id` INT(11) NOT NULL,
-                  `topic_id` INT NOT NULL,
                   PRIMARY KEY (`id`),
-                  INDEX `fk_comments_user_idx` (`user_id` ASC),
-                  INDEX `fk_comments_topic1_idx` (`topic_id` ASC),
-                  CONSTRAINT `fk_comments_user`
-                    FOREIGN KEY (`user_id`)
-                    REFERENCES `17191726_0000001`.`user` (`id`)
+                  INDEX `fk_comments_topic1_idx` (`topicId` ASC),
+                  INDEX `fk_comments_user1_idx` (`userId` ASC),
+                  CONSTRAINT `fk_comments_topic1`
+                    FOREIGN KEY (`topicId`)
+                    REFERENCES `17191726_0000001`.`topic` (`id`)
                     ON DELETE NO ACTION
                     ON UPDATE NO ACTION,
-                  CONSTRAINT `fk_comments_topic1`
-                    FOREIGN KEY (`topic_id`)
-                    REFERENCES `17191726_0000001`.`topic` (`id`)
+                  CONSTRAINT `fk_comments_user1`
+                    FOREIGN KEY (`userId`)
+                    REFERENCES `17191726_0000001`.`user` (`id`)
                     ON DELETE NO ACTION
                     ON UPDATE NO ACTION)
                 ENGINE = InnoDB
@@ -279,6 +277,7 @@ class m150316_163008_initial_db_setup extends CDbMigration
                 SET SQL_MODE=@OLD_SQL_MODE;
                 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
                 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
 SQL;
                 $this->execute($sql);
 SQL;

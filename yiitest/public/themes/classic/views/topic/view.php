@@ -34,8 +34,8 @@ $this->menu=array(
 <hr>
 
 <h2>Comments <?php echo count($model->comments); ?></h2>
-<?php	if(Yii::app()->user->id != $model->user_id): ?>
+<?php	if((Yii::app()->user->id != $model->user_id) && ($postComment )) {?>
 	<?php	$this->renderPartial('comments/_form', array('model'=>$model, 'comment' => $comment)); ?>
-<?php endif; ?>
+<?php   } ?>
 
 <?php	$this->renderPartial('comments/_list', array('model'=>$model)); ?>

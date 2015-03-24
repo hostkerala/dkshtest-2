@@ -29,7 +29,7 @@ class SettingsController extends Controller
 	public function accessRules()
 	{
 		return array(array('allow', // allow all users to perform 'index' and 'view' actions
-			'actions' => array('index'), 'users' => array('@'),),
+			'actions' => array('index','contries'), 'users' => array('@'),),
 //                     array('allow', // allow authenticated user to perform 'create' and 'update' actions
 //                           'actions' => array('create', 'update'), 'users' => array('@'),),
 //                     array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -49,6 +49,27 @@ class SettingsController extends Controller
 		$dataProvider = new CActiveDataProvider('Config');
 		$dataProvider->pagination->pageSize = 50;
 		$this->render('view', array('dataProvider' => $dataProvider));
+	}
+        
+        public function actionContries()
+	{
+            $this->breadcrumbs = array('Settings/Countries');
+            $model=new Contries('search');
+            $model->unsetAttributes();  // clear any default values
+            if(isset($_GET['Contries']))
+                    $model->attributes=$_GET['Contries'];
+
+            $this->render('contries/admin',array(
+                    'model'=>$model,
+            ));
+	}
+        
+        public function actionStates()
+	{
+            $this->breadcrumbs = array('Settings/States');
+            $dataProvider = new CActiveDataProvider('Config');
+            $dataProvider->pagination->pageSize = 50;
+            $this->render('view', array('dataProvider' => $dataProvider));
 	}
 
 

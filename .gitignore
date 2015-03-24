@@ -3,3 +3,4 @@ readme.md
 *~
 yiitest/public/assets/
 yiitest/public/assets/*
+yiitest/app/runtime/*

@@ -16,7 +16,10 @@
  */
 class Zipareas extends CActiveRecord
 {
-	/**
+	
+        public $country;
+        
+        /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return Zipareas the static model class
@@ -42,7 +45,7 @@ class Zipareas extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('zip', 'required'),
+			array('country,state,zip,city', 'required'),
 			array('updated', 'numerical', 'integerOnly' => true),
 			array('zip', 'length', 'max' => 5),
 			array('state', 'length', 'max' => 2),
