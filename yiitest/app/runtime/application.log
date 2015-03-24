@@ -6114,3 +6114,45 @@ HTTP_REFERER=http://serwer1505663.home.pl/yiitest/public/topic/1
 2015/03/24 10:32:47 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
 in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
 in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:19 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "email" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "role" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "id" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "first_name" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "last_name" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "address" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "city_id" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "created_at" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "updated_at" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "phone" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "secret_key" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "avatar" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/24 11:34:40 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
