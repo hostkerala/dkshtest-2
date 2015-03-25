@@ -185,7 +185,7 @@ class TopicController extends Controller
 	public function actionMyTopics()
 	{
                 $model = new Topic('search');
-                $model->user_id = yii::app()->getId();
+                $model->user_id = yii::app()->user->getId();
         	$model->category_id = Yii::app()->request->getQuery('category_id');
 		if (isset($_GET['Topic'])) {
 			$model->attributes = $_GET['Topic'];
