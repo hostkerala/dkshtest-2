@@ -29,7 +29,7 @@ class TopicController extends Controller
 		return array(
 			array(
 				'allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions' => array('admin', 'create', 'update', 'delete', 'index', 'view', 'comment', 'deleteComments'), 'users' => array('@'),
+				'actions' => array('admin', 'create', 'update', 'delete', 'index', 'view', 'comment', 'deleteComments','mytopics'), 'users' => array('@'),
 			),
 			array(
 				'deny', // deny all users
@@ -123,7 +123,8 @@ class TopicController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$model = new Topic('search');
+		
+                $model = new Topic('search');
 		$model->unsetAttributes(); // clear any default values
 
 		$model->category_id = Yii::app()->request->getQuery('category_id');
@@ -176,5 +177,24 @@ class TopicController extends Controller
 		if ($model === null)
 			throw new CHttpException(404, 'The requested page does not exist.');
 		return $model;
+	}
+        
+         /**
+	 * Manages My Topics.
+	 */
+	public function actionMyTopics()
+	{
+                $model = new Topic('search');
+                $model->user_id = yii::app()->getId();
+        	$model->category_id = Yii::app()->request->getQuery('category_id');
+		if (isset($_GET['Topic'])) {
+			$model->attributes = $_GET['Topic'];
+			$model->created_at = (strtotime($model->created_at)) ? date("Y-m-d", strtotime($model->created_at)) : "";
+			$model->topic_end = (strtotime($model->topic_end)) ? date("Y-m-d", strtotime($model->topic_end)) : "";
+		}
+
+		$this->render('admin', array(
+			'model' => $model,
+		));
 	}
 }

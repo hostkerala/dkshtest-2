@@ -30,6 +30,14 @@
     <div class="span8">
         <?php
         $this->widget('bootstrap.widgets.TbButton', array(
+            'label' => 'My Topics',
+            'url' => Yii::app()->createUrl('topic/mytopics'),
+            'size' => 'large',
+            'htmlOptions' => array('class' => 'btn-primary pull-left'),
+        ));
+        ?>
+        <?php
+        $this->widget('bootstrap.widgets.TbButton', array(
             'label' => 'Post a topic',
             'url' => Yii::app()->createUrl('topic/create'),
             'size' => 'large',

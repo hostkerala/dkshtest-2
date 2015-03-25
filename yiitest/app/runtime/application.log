@@ -6514,3 +6514,235 @@ in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php (41)
 2015/03/25 02:44:19 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
 in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
 in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/25 02:59:59 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(191): CComponent->__set('category_id', NULL)
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:04:32 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', 0)
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:05:19 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "search".' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php(53): CComponent->__call('search', Array)
+#1 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php(53): CActiveDataProvider->search()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#6 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(199): CController->render('admin', Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#18 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:06:57 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', '')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:06:58 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', '')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:06:58 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', '')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:06:58 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', '')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:06:58 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', '')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:06:59 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', '')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:06:59 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.category_id" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(196): CComponent->__set('category_id', '')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
+2015/03/25 03:07:21 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "search".' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php(53): CComponent->__call('search', Array)
+#1 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/admin.php(53): CActiveDataProvider->search()
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#6 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(203): CController->render('admin', Array)
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): TopicController->actionMyTopics()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('mytopics')
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/mytopics')
+#18 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#20 {main}
+REQUEST_URI=/yiitest/public/topic/mytopics
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
+---
