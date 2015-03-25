@@ -25,11 +25,11 @@
                             <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-in flag-style"></div>&nbsp;<small><abbr class="timeago" title="<?php echo $comment->createdAt;  ?>"></abbr></small></h2>
                         </div>             
                         <div class="span4 pull-right"> 
-                            <?php //if(Topic::isAuthor($comment->topicId)) { ?>
+                            <?php if(Topic::isAuthor($comment->topicId)) { ?>
                                 <a href="<?php  echo yii::app()->createUrl('topic/DeleteComments',array('id'=>$comment->id)); ?>" class="close" aria-label="Close"
                                 <span aria-hidden="true">&times;</span>                           
                                 </a>
-                            <?php// } ?> 
+                            <?php } ?> 
                         </div>
                     </div>
                     <hr>
