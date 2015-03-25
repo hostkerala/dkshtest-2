@@ -113,8 +113,13 @@ class Contries extends CActiveRecord
         
         public function getCountrycode($stateId){
             $states = States::model()->findByPk($stateId);
-            $country = Contries::model()->findByPk($states->country_id);            
-            return $country->country_iso_2;            
+            if($states)
+            {
+                $country = Contries::model()->findByPk($states->country_id);
+                return $country->country_iso_2;                
+            }
+            return "gr"; //Defualt country Flag
+                     
         }        
         
 }
