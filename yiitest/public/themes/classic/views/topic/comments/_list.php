@@ -17,14 +17,14 @@
                         <?php
                         $user = User::model()->findByPk($comment->userId);                                
                         ?>
-                        <img src="<?php echo $user->avatar; ?>" alt=".." class="img-rounded" height="100px" width="100px">
+                        <img src="<?php echo $user->avatar; ?>" alt=".." class="img-rounded" height="150px" width="150px">
                     </div>
                     <div class="span10 pull-left"> 
-                        <div class="span6 pull-left" >
+                        <div class="span8 pull-left" >
                             <?php $user =  User::model()->findByPk($comment->userId) ?>
                             <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-in flag-style"></div>&nbsp;<small><abbr class="timeago" title="<?php echo $comment->createdAt;  ?>"></abbr></small></h2>
                         </div>             
-                        <div class="span4 pull-right"> 
+                        <div class="span2 pull-right"> 
                             <?php if(Topic::isAuthor($comment->topicId)) { ?>
                                 <a href="<?php  echo yii::app()->createUrl('topic/DeleteComments',array('id'=>$comment->id)); ?>" class="close" aria-label="Close"
                                 <span aria-hidden="true">&times;</span>                           
