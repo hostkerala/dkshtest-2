@@ -22,7 +22,8 @@
                     <div class="span10 pull-left"> 
                         <div class="span8 pull-left" >
                             <?php $user =  User::model()->findByPk($comment->userId) ?>
-                            <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-in flag-style"></div>&nbsp;<small><abbr class="timeago" title="<?php echo $comment->createdAt;  ?>"></abbr></small></h2>
+                            <?php $countryCode = Contries::model()->getCountrycode($user->state_id); ?>
+                            <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-<?php echo $countryCode ?> flag-style"></div>&nbsp;<small><abbr class="timeago" title="<?php echo $comment->createdAt;  ?>"></abbr></small></h2>
                         </div>             
                         <div class="span2 pull-right"> 
                             <?php if(Topic::isAuthor($comment->topicId)) { ?>

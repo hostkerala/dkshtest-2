@@ -110,4 +110,11 @@ class Contries extends CActiveRecord
             $country = Contries::model()->findAll($states->country_id);
             return CHtml::listData($country,'id','country_name_en');
         }
+        
+        public function getCountrycode($stateId){
+            $states = States::model()->findByPk($stateId);
+            $country = Contries::model()->findByPk($states->country_id);            
+            return $country->country_iso_2;            
+        }        
+        
 }
