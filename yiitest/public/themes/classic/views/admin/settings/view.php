@@ -10,7 +10,7 @@ $this->widget('bootstrap.widgets.TbTabs', array(
 'tabs'=>array(
 array('label'=>'General Settings', 
                 'content'=> '<div class="btn-group" role="group" aria-label="General Settings">
-                                <a class="btn btn-primary btn-large" href='.yii::app()->createUrl('admin/contries').'>Contries Sttings</a>
+                                <a class="btn btn-primary btn-large" href='.yii::app()->createUrl('admin/contries').'>Contries Settings</a>
                                 <a class="btn btn-warning btn-large" href='.yii::app()->createUrl('admin/states').'>States Settings</a>
                                 <a class="btn btn-info btn-large" href='.yii::app()->createUrl('admin/zipareas').'>Cities Settings</a>
                              </div>', 

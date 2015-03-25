@@ -6511,3 +6511,6 @@ REQUEST_URI=/yiitest/public/topic/1
 in /home/roopz/www/dksh2/yiitest/app/modules/user/models/Contries.php (117)
 in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_list.php (25)
 in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php (41)
+2015/03/25 02:44:19 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
