@@ -135,7 +135,7 @@ class TopicController extends Controller
 		}
 
 		$this->render('admin', array(
-			'model' => $model,
+			'model' => $model, 'showCategory'=>true
 		));
 	}
 	/**
@@ -194,7 +194,7 @@ class TopicController extends Controller
 		}
 
 		$this->render('admin', array(
-			'model' => $model,
+			'model' => $model, 'showCategory'=>false
 		));
 	}
 }

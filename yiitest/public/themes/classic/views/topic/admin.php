@@ -15,15 +15,16 @@
     <div class="span2">
         <br/>   <br/>        <br/>   <br/>
         <div class="bootstrap-widget">
-
         <?php
-
-        $this->widget('bootstrap.widgets.TbTabs', array(
-                'type' => 'pills',
-                'tabs' => array(
-                    array('label' =>  Categories::getLabelCategoriesFilter(), 'items' => Categories::getCategoriesFilterList())
-                ))
-        );
+        if($showCategory)
+        {
+            $this->widget('bootstrap.widgets.TbTabs', array(
+                    'type' => 'pills',
+                    'tabs' => array(
+                        array('label' =>  Categories::getLabelCategoriesFilter(), 'items' => Categories::getCategoriesFilterList())
+                    ))
+            );
+        }
         ?>
         </div>
     </div>
