@@ -4,11 +4,44 @@ class UserController extends Controller
 {
 	public $layout = '//layouts/main';
 
-	public function actionIndex()
+		/**
+	 * @return array action filters
+	 */
+	public function filters()
+	{
+		return array(
+			'accessControl', // perform access control for CRUD operations
+			'postOnly + delete', // we only allow deletion via POST request
+		);
+	}
+	/**
+	 * Specifies the access control rules.
+	 * This method is used by the 'accessControl' filter.
+	 * @return array access control rules
+	 */
+	public function accessRules()
+	{
+		return array(
+			array(
+				'allow', // allow authenticated user to perform 'create' and 'update' actions
+				'actions' => array('AjaxGetCityList', 'SettingsProfile'), 'users' => array('@'),
+			),
+			array(
+				'deny', // deny all users
+				'users' => array('*'),
+			),
+		);
+	}
+        
+        
+        
+        public function actionIndex()
 	{
 		$this->render('index');
 	}
 
+        
+        
 	public function actionAjaxGetCityList()
 	{
 		$request = Yii::app()->request;
@@ -108,8 +141,7 @@ class UserController extends Controller
         public static function uploadFiles($fileName,$tmpName)
         {
             try
-            {
-                
+            {                
                 //FOR TESTING LIVE
 		//$folderName  = "/yiitest/public/uploads/users/".Yii::app()->user->getID()."/avatar/";
                 $folderName  = yii::app()->params['uploadDir'].Yii::app()->user->getID().DIRECTORY_SEPARATOR.'avatar'.DIRECTORY_SEPARATOR;   
@@ -118,7 +150,7 @@ class UserController extends Controller
                 {                
                     if(!is_dir($folderName)) 
                     {                     
-                          mkdir($folderName,0777);                                     
+                          mkdir($folderName,0777,true);                                     
                     }
                     //Setup our new file path
                     $newFilePath = $folderName.$fileName;

@@ -1,5 +1,7 @@
-<link href="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fileuploader/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
-<script src="<?php echo Yii::app()->getBaseUrl(true); ?>/js/fileuploader/js/fileinput.min.js"></script>
+<?php
+    Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/fileuploader/js/fileinput.min.js',CClientScript::POS_END);
+    Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/js/fileuploader/css/fileinput.min.css');
+?>
 
 <script type="text/javascript">
     $(function () {
@@ -36,7 +38,7 @@
         <div class="col-sm-6 col-md-3">
            <a href="#" class="thumbnail">
               <img src="<?php echo $userModel->avatar; ?>" 
-              alt="Photo">
+              alt="...">
            </a>
         </div>   
             
