@@ -59,7 +59,7 @@
 </style>   
 
 <script type="text/javascript">
-    timeout = 3* 1000; // in Milliseconds -> multiply with 1000 to use seconds
+    timeout = 60* 1000; // Refreshes in every 1 minute
     function refresh() {
         <?php
         echo CHtml::ajax(array(
