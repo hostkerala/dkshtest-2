@@ -5,7 +5,6 @@
 ?>
 
 <?php
-    Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquery.timeago.js',CClientScript::POS_END);
     Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/flag-icon.min.css');
 ?>
 
@@ -23,10 +22,11 @@
                         <div class="span8 pull-left" >
                             <?php $user =  User::model()->findByPk($comment->userId) ?>
                             <?php $countryCode = Contries::model()->getCountrycode($user->state_id); ?>
-                            <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-<?php echo $countryCode ?> flag-style"></div>&nbsp;<small><abbr class="timeago" title="<?php echo $comment->createdAt;  ?>"></abbr></small></h2>
+                            <?php date_default_timezone_set('Asia/Kolkata');  ?>
+                            <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-<?php echo $countryCode ?> flag-style"></div>&nbsp;<small><?php echo Yii::app()->format->timeago(new DateTime($comment->createdAt)); ?></small></h2>
                         </div>             
                         <div class="span2 pull-right"> 
-                            <?php if(Topic::isAuthor($comment->topicId)) { ?>
+                            <?php if(Topic::isAuthor($comment->topicId) || Yii::app()->user->isAdmin) { ?>
                                 <a href="<?php  echo yii::app()->createUrl('topic/DeleteComments',array('id'=>$comment->id)); ?>" class="close" aria-label="Close"
                                 <span aria-hidden="true">&times;</span>                           
                                 </a>
@@ -38,18 +38,11 @@
                         <p class="text-muted"><?=CHtml::decode($comment->content)?></p>			                                          
                     </div>
 		</div>
-                <?php  } ?>
                 <hr>
 		<br> 
+                <?php  } ?>
 	<?php endforeach; ?>
 </div>
-
-<script>
-jQuery(document).ready(function() {
-  jQuery("abbr.timeago").timeago();
-});
-</script>
-
 <style>
     .flag-style
     {        
@@ -57,4 +50,4 @@ jQuery(document).ready(function() {
         width:20px; 
         vertical-align:middle;
     }
-</style>    
+</style>   

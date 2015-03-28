@@ -94,7 +94,10 @@ return array(
 					'showInFireBug' => true,
 				),
 			),
-		),
+		),            
+                'format'=>array(
+                    'class'=>'application.extensions.timeago.TimeagoFormatter',
+                ),
 
 	),
 
@@ -102,6 +105,8 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params' => array(
             'uploadDir'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'public'.DIRECTORY_SEPARATOR.'uploads'.DIRECTORY_SEPARATOR.'users'.DIRECTORY_SEPARATOR,   
+            'timeZone'=>'Asia/Kolkata',    // For DEV Chenge
+            //'timeZone'=>'Europe/Stockholm',    // For DEV Live
 		'hybridAuthIdentity' => array(
 			'class' => 'application.components.HybridAuthIdentity',
 			'config' => array(
