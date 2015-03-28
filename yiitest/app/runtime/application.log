@@ -6889,3 +6889,6 @@ in /home/roopz/www/dksh2/yiitest/public/index.php (16)
 2015/03/28 07:00:38 [warning] [application] Failed to set unsafe attribute "state_id" of "UserLoginForm".
 in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (56)
 in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/03/28 07:33:46 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)

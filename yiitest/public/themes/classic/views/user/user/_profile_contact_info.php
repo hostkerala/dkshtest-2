@@ -9,7 +9,7 @@
     })
 </script>
 <div class="container-fluid">
-    <div class="span7 ">
+    <div class="span8">
         <?php $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
             'id' => 'settingsProfileForm',
             'htmlOptions'=>array('enctype'=>'multipart/form-data'),
