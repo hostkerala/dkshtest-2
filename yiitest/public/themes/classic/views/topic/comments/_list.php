@@ -9,8 +9,7 @@
 ?>
 
 <div id="comment-list">
-	<?php foreach($model->comments as $comment): ?>
-                <?php if(Topic::isAuthor($comment->topicId) || ($comment->userId == yii::app()->user->id)) { ?>
+	<?php foreach($model->comments as $comment): ?>               
 		<div class="row-fluid">
                     <div class="span2 pull-left">
                         <?php
@@ -34,13 +33,20 @@
                         </div>
                     </div>
                     <hr>
+                     <?php if(Topic::isAuthor($comment->topicId) || ($comment->userId == yii::app()->user->id)) { ?>
                     <div class="span10 pull-left text-justify">                       
                         <p class="text-muted"><?=CHtml::decode($comment->content)?></p>			                                          
                     </div>
+                    <?php  }  else   { ?>
+                    <div class="span10 pull-left text-justify">                       
+                        <p class="text-muted">No access to read comments</p>	                                          
+                    </div>
+                        	
+                    <?php } ?>
 		</div>
                 <hr>
 		<br> 
-                <?php  } ?>
+                
 	<?php endforeach; ?>
 </div>
 <style>
@@ -53,13 +59,13 @@
 </style>   
 
 <script type="text/javascript">
-    timeout = 1* 1000; // in Milliseconds -> multiply with 1000 to use seconds
+    timeout = 3* 1000; // in Milliseconds -> multiply with 1000 to use seconds
     function refresh() {
         <?php
         echo CHtml::ajax(array(
                 'url'=> CController::createUrl('topic/UpdateCommentsList',array('id'=>$model->id)),
                 'type'=>'post',
-                'update'=> '#comments-list',
+                'update'=> '#comment-list',
         ))
         ?>
     }
