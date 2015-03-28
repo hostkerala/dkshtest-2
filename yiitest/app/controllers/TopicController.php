@@ -29,7 +29,7 @@ class TopicController extends Controller
 		return array(
 			array(
 				'allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions' => array('admin', 'create', 'update', 'delete', 'index', 'view', 'comment', 'deleteComments','mytopics'), 'users' => array('@'),
+				'actions' => array('admin', 'create', 'update', 'delete', 'index', 'view', 'comment', 'deleteComments','mytopics','UpdateCommentsList'), 'users' => array('@'),
 			),
 			array(
 				'deny', // deny all users
@@ -197,4 +197,14 @@ class TopicController extends Controller
 			'model' => $model, 'showCategory'=>false
 		));
 	}
+        
+        public function actionUpdateCommentsList($id)
+	{
+		$comment = new Comment;
+		$model = $this->loadModel($id);
+                echo $this->renderPartial('comments/_list', array('model'=>$model),false,true);
+	
+	}
+        
+        
 }

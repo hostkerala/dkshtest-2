@@ -51,3 +51,17 @@
         vertical-align:middle;
     }
 </style>   
+
+<script type="text/javascript">
+    timeout = 1* 1000; // in Milliseconds -> multiply with 1000 to use seconds
+    function refresh() {
+        <?php
+        echo CHtml::ajax(array(
+                'url'=> CController::createUrl('topic/UpdateCommentsList',array('id'=>$model->id)),
+                'type'=>'post',
+                'update'=> '#comments-list',
+        ))
+        ?>
+    }
+    window.setInterval("refresh()", timeout);
+</script>

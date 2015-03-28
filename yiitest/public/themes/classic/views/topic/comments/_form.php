@@ -33,7 +33,3 @@
 	</div>
 
 <?php $this->endWidget(); ?>
-
-<script>
-
-</script>
