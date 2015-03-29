@@ -61,7 +61,7 @@
 <script type="text/javascript">
     
     $(document).ready(function() {        
-        setInterval(ajaxCall, 1000); //300000 MS == 5 minutes
+        setInterval(ajaxCall, 30000); // Request in every 30 seconds
         function ajaxCall() {
             <?php echo CHtml::ajax(array(
                 'url'=> CController::createUrl('topic/UpdateCommentsList',array('id'=>$model->id)),
