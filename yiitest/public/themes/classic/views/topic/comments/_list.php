@@ -59,15 +59,17 @@
 </style>   
 
 <script type="text/javascript">
-    timeout = 60* 1000; // Refreshes in every 1 minute
-    function refresh() {
-        <?php
-        echo CHtml::ajax(array(
+    
+    $(document).ready(function() {        
+        setInterval(ajaxCall, 1000); //300000 MS == 5 minutes
+        function ajaxCall() {
+            <?php echo CHtml::ajax(array(
                 'url'=> CController::createUrl('topic/UpdateCommentsList',array('id'=>$model->id)),
                 'type'=>'post',
                 'update'=> '#comment-list',
-        ))
-        ?>
+            )) 
+            ?>
+        }
     }
-    window.setInterval("refresh()", timeout);
+    );
 </script>

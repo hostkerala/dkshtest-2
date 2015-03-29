@@ -2138,3 +2138,463 @@ REQUEST_URI=/yiitest/public/user/admin/user/create
 in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/user/admin/user/_form.php (56)
 in /home/roopz/www/dksh2/yiitest/public/themes/classic/views/user/admin/user/create.php (6)
 in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/admin/UserController.php (103)
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---
+2015/03/29 03:23:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (11)' in /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /home/roopz/www/dksh2/vendors/yii/framework/db/ar/CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 /home/roopz/www/dksh2/yiitest/app/components/GeneralConfig.php(17): CActiveRecord->findAll()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(387): GeneralConfig->init()
+#9 /home/roopz/www/dksh2/vendors/yii/framework/base/CModule.php(523): CModule->getComponent('config')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(163): CModule->preloadComponents()
+#11 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(125): CApplication->__construct('/home/roopz/www...')
+#12 /home/roopz/www/dksh2/vendors/yii/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/home/roopz/www...')
+#13 /home/roopz/www/dksh2/yiitest/public/index.php(16): YiiBase::createWebApplication('/home/roopz/www...')
+#14 {main}
+REQUEST_URI=/yiitest/public/topic/UpdateCommentsList/2
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/2
+---

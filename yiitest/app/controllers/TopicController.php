@@ -203,8 +203,9 @@ class TopicController extends Controller
 	{
 		$comment = new Comment;
 		$model = $this->loadModel($id);
-                Yii::app()->clientScript->corePackages = array(); 
+                Yii::app()->clientScript->scriptMap=array('*.js'=>false, '*.min.js'=>false, '*.css'=>false); 
                 echo $this->renderPartial('comments/_list', array('model'=>$model),false,true);
+                yii::app()->end();
 	
 	}
         
