@@ -167,8 +167,9 @@ class TopicController extends Controller
         
         public function actionDeleteComments($id)
 	{
-		$this->loadModelCommentsModel($id)->delete();
-                $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('index'));
+		$model = $this->loadModelCommentsModel($id);
+                $model->delete();
+                $this->redirect(yii::app()->createUrl('topic/view',array('id'=>$model->topicId)));
 	}
         
         public function loadModelCommentsModel($id)

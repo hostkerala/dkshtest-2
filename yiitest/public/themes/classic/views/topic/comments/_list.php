@@ -25,7 +25,7 @@
                             <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-<?php echo $countryCode ?> flag-style"></div>&nbsp;<small><?php echo Yii::app()->format->timeago(new DateTime($comment->createdAt)); ?></small></h2>
                         </div>             
                         <div class="span2 pull-right"> 
-                            <?php if(Topic::isAuthor($comment->topicId)) { ?>
+                            <?php if(Topic::isAuthor($comment->topicId) || yii::app()->user->isAdmin) {  //Admin Have all Rights ?> 
                                 <a href="<?php  echo yii::app()->createUrl('topic/DeleteComments',array('id'=>$comment->id)); ?>" class="close" aria-label="Close"
                                 <span aria-hidden="true">&times;</span>                           
                                 </a>
@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <hr>
-                     <?php if(Topic::isAuthor($comment->topicId) || ($comment->userId == yii::app()->user->id)) { ?>
+                     <?php if(Topic::isAuthor($comment->topicId) || ($comment->userId == yii::app()->user->id) || yii::app()->user->isAdmin) { //Admin Have all Rights ?>
                     <div class="span10 pull-left text-justify">                       
                         <p class="text-muted"><?=CHtml::decode($comment->content)?></p>			                                          
                     </div>

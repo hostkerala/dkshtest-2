@@ -28,28 +28,28 @@
     
     <div class="row-fluid">
         <div class="pull-left span6">
-        <?php echo $form->textFieldRow($model,'zip', CHtml::listData(Contries::model()->findAll(),'id','country_name_en')); ?>
+        <?php echo $form->textFieldRow($model,'zip'); ?>
         </div>
         <div class="pull-left span6">
-        <?php echo $form->textFieldRow($model,'city', CHtml::listData(Contries::model()->findAll(),'id','country_name_en')); ?>
+        <?php echo $form->textFieldRow($model,'city'); ?>
         </div> 
     </div>
     
     <div class="row-fluid">
         <div class="pull-left span6">
-        <?php echo $form->textFieldRow($model,'latitude', CHtml::listData(Contries::model()->findAll(),'id','country_name_en')); ?>
+        <?php echo $form->textFieldRow($model,'latitude'); ?>
         </div>
         <div class="pull-left span6">
-        <?php echo $form->textFieldRow($model,'longitude', CHtml::listData(Contries::model()->findAll(),'id','country_name_en')); ?>
+        <?php echo $form->textFieldRow($model,'longitude'); ?>
         </div> 
     </div>
     
     <div class="row-fluid">
         <div class="pull-left span6">
-        <?php echo $form->textFieldRow($model,'old_lat', CHtml::listData(Contries::model()->findAll(),'id','country_name_en')); ?>
+        <?php echo $form->textFieldRow($model,'old_lat'); ?>
         </div>
         <div class="pull-left span6">
-        <?php echo $form->textFieldRow($model,'old_lng', CHtml::listData(Contries::model()->findAll(),'id','country_name_en')); ?>
+        <?php echo $form->textFieldRow($model,'old_lng'); ?>
         </div> 
     </div>
     <div class="form-actions">

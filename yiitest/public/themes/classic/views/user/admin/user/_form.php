@@ -13,7 +13,55 @@
 <?php echo $form->textFieldRow($model, 'email', array('class' => 'span5', 'maxlength' => 128)); ?>
 
 
-<?php echo $form->dropDownListRow(
+<?php
+       if($model->state_id)
+       {                   
+           $countryList = Contries::model()->getCountryNameFromStateId($model->state_id);
+           $model->country = States::model()->with('country')->findByPk($model->state_id)->country->id;
+           $statesList  = CHtml::listData(States::model()->findAllByAttributes(array('country_id'=>$model->country)),'id','state_name_en');                   
+       }
+       else
+       {
+           $countryList = CHtml::listData(Contries::model()->findAll(),'id','country_name_en');
+           $statesList  = array();
+
+       }
+?>
+
+<?php echo $form->dropDownListRow($model,'country',$countryList,
+                         array(
+                         'prompt'=>'Select Country',
+                         'ajax' => array(
+                         'type'=>'POST', 
+                         'url'=>Yii::app()->createUrl('admin/zipareas/getStates'),
+                         'update'=>'#User_state_id',
+                         'data'=>array('country_id'=>'js:this.value'),
+ ),'class' => 'span5'));?>
+
+<?php echo $form->dropDownListRow($model,'state_id',$statesList, array(
+                'prompt' => '- Select State -',
+                'ajax' => array(
+                    'url' => $this->createUrl('/user/user/AjaxGetCityList'),
+                    'update'=>'#city_id',
+                    //'success' => "function(html) {
+                    //$('#city_id').html(html);
+//                    $('#city_id').html('$('#city_id option:first').text());
+                   //}",
+                    'data' => 'js:{state_code : $(this).val()}',
+                ),'class' => 'span5')            
+            ); 
+?>
+
+
+<?php echo $form->dropDownListRow($model, 'city_id', $model->userCityList,
+    array(
+        'id' => 'city_id',
+        'empty' => '- Select City -',
+        'class' => 'span5'
+)); ?>
+
+
+<?php /*echo $form->dropDownListRow(
                     $model,
                     'state_id',
                     CHtml::listData(
@@ -45,8 +93,7 @@
                                                'empty' => '- Select City -'
                                                )
         )
-        ?>
-        <?php echo CHtml::error($model, 'city_id'); ?>
+echo CHtml::error($model, 'city_id'); */?>
 
 <?php if($this->action->id == 'create'): ?>
 <?php echo $form->passwordFieldRow($model, 'password', array('class' => 'span5')); ?>

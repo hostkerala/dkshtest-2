@@ -48,7 +48,7 @@ class AuthController extends Controller
 
 		if (Yii::app()->request->getPost('User')) {
 			$model->attributes = Yii::app()->request->getPost('User');
-                        $model->role = User::ROLE_USER; // Sets default role as user when signup
+                        $model->role = User::ROLE_USER; // Sets default role as USER when signup
 
 			if ($model->validate()) {
 
@@ -165,7 +165,8 @@ class AuthController extends Controller
 			$userData['username'] = $haComp->userProfile->displayName;
 			$userData['email'] = $haComp->userProfile->email;
 			$userData['password'] = $haComp->userProfile->email;
-                        $userData['avatar'] = $haComp->userProfile->photoURL;                       
+                        $userData['avatar'] = $haComp->userProfile->photoURL; 
+                        $userData['role'] = User::ROLE_USER;    //Sets Default Role as USER whaen signup.
 
 			$this->processHybridLogin($userData);  //further action based on successful login or re-direct user to the required url
 		}
@@ -198,6 +199,7 @@ class AuthController extends Controller
 			$model->email = $data['email'];
 			$model->password = $data['password'];
                         $model->avatar = $data['avatar'];
+                        $model->role = $data['role'];
 			
 			if ($model->validate()) {
 
