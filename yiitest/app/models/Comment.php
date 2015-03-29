@@ -110,7 +110,11 @@ class Comment extends ActiveRecord
         
         public function isAbletoComment($userId, $topicId)
 	{
-            if(self::model()->findByAttributes(array('userId'=>$userId,'topicId'=>$topicId)))
+            if(yii::app()->user->isAdmin)
+            {
+                return true;                
+            }
+            else if(self::model()->findByAttributes(array('userId'=>$userId,'topicId'=>$topicId)))
             {
                 return false;                
             }
