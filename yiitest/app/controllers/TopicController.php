@@ -49,7 +49,7 @@ class TopicController extends Controller
                 $postComment = $comment->isAbletoComment(Yii::app()->user->id,$model->id);
 
 		if (isset($_POST['Comment'])) {
-			if(Yii::app()->user->id != $model->user_id){
+			if((Yii::app()->user->id != $model->user_id) || (Yii::app()->user->isAdmin)){
 				$comment->attributes = $_POST['Comment'];
 				$comment->content = CHtml::encode($_POST['Comment']['content']);
 				$comment->userId = Yii::app()->user->id;
@@ -147,7 +147,7 @@ class TopicController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model = Topic::model()->findByPk($id);
+		$model = Topic::model()->with(array('comments'=>array('order'=>'comments.id DESC')))->findByPk($id);
 		if ($model === null)
 			throw new CHttpException(404, 'The requested page does not exist.');
 		return $model;
