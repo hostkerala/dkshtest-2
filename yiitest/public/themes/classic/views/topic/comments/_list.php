@@ -21,7 +21,7 @@
                         <div class="span8 pull-left" >
                             <?php $user =  User::model()->findByPk($comment->userId) ?>
                             <?php $countryCode = Contries::model()->getCountrycode($user->state_id); ?>
-                            <?php //date_default_timezone_set(yii::app()->params['timeZone']);  ?>
+                            <?php date_default_timezone_set(yii::app()->params['timeZone']);  ?>
                             <h2 class="text-info"><?php echo $user->username ?>&nbsp;<div class="flag-icon flag-icon-<?php echo $countryCode ?> flag-style"></div>&nbsp;<small><?php echo Yii::app()->format->timeago(new DateTime($comment->createdAt)); ?></small></h2>
                         </div>             
                         <div class="span2 pull-right"> 
