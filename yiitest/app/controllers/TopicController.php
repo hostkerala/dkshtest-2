@@ -57,8 +57,17 @@ class TopicController extends Controller
 					$this->redirect(Yii::app()->createUrl('topic/view', array('id'=>$id)));
 			}
 		}
+                
+                $criteria=new CDbCriteria(array(                    
+                                'order'=>'id desc',
+                                'condition'=>"user_id=$model->user_id AND id <> $model->id",
+                        ));
 
-		$this->render('view', array('model' => $model, 'comment' => $comment, 'postComment'=>$postComment));
+                $authorTopics=new CActiveDataProvider('Topic', array(
+                    'criteria'=>$criteria,
+                ));
+
+		$this->render('view', array('model' => $model, 'comment' => $comment, 'postComment'=>$postComment, 'authorTopics'=>$authorTopics));
 	}
 
 	/**

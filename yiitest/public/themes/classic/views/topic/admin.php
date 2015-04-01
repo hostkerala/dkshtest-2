@@ -79,7 +79,7 @@
                 ),
                 array(
                     'name' => 'topic_end',
-                    'value' => 'date("m/d/Y", strtotime($data->topic_end))',
+                    'value' => 'date("m/d/Y", $data->topic_end)',
                     'filter' => $this->widget('zii.widgets.jui.CJuiDatePicker', array(
                         'attribute' => 'topic_end',
                         'model' => $model,

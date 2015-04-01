@@ -23,7 +23,7 @@
         <?php $this->widget('zii.widgets.jui.CJuiDatePicker',
             array(
                 'name' => 'Topic[topic_end]',
-                'value' => (strtotime($model->topic_end)) ? date("m/d/Y", strtotime($model->topic_end)) : "",
+                'value' => ($model->topic_end) ? date("m/d/Y", $model->topic_end) : "",
                 'language' => 'en-GB',
                 'options' => array(
                     'dateFormat' => 'mm/dd/yy',

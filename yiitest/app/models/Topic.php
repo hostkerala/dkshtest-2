@@ -86,7 +86,7 @@ class Topic extends CActiveRecord
 
 	public function beforeSave()
 	{
-		$this->topic_end = date('Y-m-d', strtotime($this->topic_end));
+		$this->topic_end = strtotime($this->topic_end);
 		return parent::beforeSave();
 	}
 

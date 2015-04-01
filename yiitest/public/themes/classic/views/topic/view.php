@@ -32,10 +32,13 @@ $this->menu=array(
 )); ?>
 
 <hr>
-
-<h2>Comments <?php //echo count($model->comments); ?></h2>
 <?php	if((((Yii::app()->user->id != $model->user_id) && ($postComment ))) || yii::app()->user->isAdmin) { //Admin Have all Rights?>
+<h2>Comments <?php //echo count($model->comments); ?></h2>
 	<?php	$this->renderPartial('comments/_form', array('model'=>$model, 'comment' => $comment)); ?>
 <?php   } ?>
 
 <?php	$this->renderPartial('comments/_list', array('model'=>$model)); ?>
+<?php  if(Topic::isAuthor($model->id)) : ?>
+<h2> Other My Topics ( <?php echo $authorTopics->totalItemCount; ?>)</h2>
+<?php $this->renderPartial('comments/_authorTopics',array('authorTopics'=>$authorTopics)) ?>
+<?php endif; ?>
