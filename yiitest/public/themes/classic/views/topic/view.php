@@ -38,7 +38,7 @@ $this->menu=array(
 <?php   } ?>
 
 <?php	$this->renderPartial('comments/_list', array('model'=>$model)); ?>
-<?php  if(Topic::isAuthor($model->id)) : ?>
+<?php  if(Topic::isAuthor($model->id) || yii::app()->user->isAdmin ) : ?>
 <h2> Other My Topics ( <?php echo $authorTopics->totalItemCount; ?>)</h2>
 <?php $this->renderPartial('comments/_authorTopics',array('authorTopics'=>$authorTopics)) ?>
 <?php endif; ?>
