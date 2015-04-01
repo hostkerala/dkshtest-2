@@ -6,7 +6,6 @@ $this->widget('bootstrap.widgets.TbGridView', array(
     'dataProvider' => $authorTopics,
     'columns' => array(
         'title',
-        'content',
         array(
             'htmlOptions' => array('nowrap' => 'nowrap'),
             'class' => 'bootstrap.widgets.TbButtonColumn',

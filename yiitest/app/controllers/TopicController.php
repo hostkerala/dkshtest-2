@@ -60,7 +60,7 @@ class TopicController extends Controller
                 
                 $criteria=new CDbCriteria(array(                    
                                 'order'=>'id desc',
-                                'condition'=>"user_id=$model->user_id AND id <> $model->id",
+                                'condition'=>"user_id=$model->user_id AND id <> $model->id AND topic_end > UNIX_TIMESTAMP( CURDATE( ))"
                         ));
 
                 $authorTopics=new CActiveDataProvider('Topic', array(

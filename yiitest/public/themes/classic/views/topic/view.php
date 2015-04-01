@@ -37,8 +37,8 @@ $this->menu=array(
 	<?php	$this->renderPartial('comments/_form', array('model'=>$model, 'comment' => $comment)); ?>
 <?php   } ?>
 
-<?php	$this->renderPartial('comments/_list', array('model'=>$model)); ?>
-<?php  if(Topic::isAuthor($model->id) || yii::app()->user->isAdmin ) : ?>
+<?php $this->renderPartial('comments/_list', array('model'=>$model)); ?>
+<?php if(Topic::isAuthor($model->id) || yii::app()->user->isAdmin ) : ?>
 <h2> Other My Topics ( <?php echo $authorTopics->totalItemCount; ?>)</h2>
 <?php $this->renderPartial('comments/_authorTopics',array('authorTopics'=>$authorTopics)) ?>
 <?php endif; ?>
