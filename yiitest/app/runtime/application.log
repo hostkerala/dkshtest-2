@@ -6293,3 +6293,71 @@ HTTP_REFERER=http://dksh2.test/yiitest/public/topic/index
 2015/04/01 10:44:23 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
 in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
 in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/04/03 14:20:34 [error] [exception.CException] exception 'CException' with message 'Property "TbGridView.hideSummary" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('hideSummary', true)
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TopicController), 'bootstrap.widge...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_authorTopics.php(18): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#7 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php(43): CController->renderPartial('comments/_autho...', Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(70): CController->render('view', Array)
+#13 [internal function]: TopicController->actionView('3')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TopicController), Array)
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TopicController), Object(ReflectionMethod), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/view')
+#26 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiitest/public/topic/3
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
+---
+2015/04/03 14:20:51 [error] [exception.CException] exception 'CException' with message 'Property "TbGridView.showSummary" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('showSummary', false)
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TopicController), 'bootstrap.widge...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_authorTopics.php(18): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#7 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php(43): CController->renderPartial('comments/_autho...', Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(70): CController->render('view', Array)
+#13 [internal function]: TopicController->actionView('3')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TopicController), Array)
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TopicController), Object(ReflectionMethod), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/view')
+#26 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiitest/public/topic/3
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
+---
