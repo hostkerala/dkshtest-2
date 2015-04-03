@@ -6361,3 +6361,290 @@ Stack trace:
 REQUEST_URI=/yiitest/public/topic/3
 HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
 ---
+2015/04/03 14:36:38 [error] [exception.CException] exception 'CException' with message 'Property "TbListView.type" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('type', 'striped bordere...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TopicController), 'bootstrap.widge...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_authorTopics.php(18): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#7 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php(43): CController->renderPartial('comments/_autho...', Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(70): CController->render('view', Array)
+#13 [internal function]: TopicController->actionView('3')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TopicController), Array)
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TopicController), Object(ReflectionMethod), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/view')
+#26 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiitest/public/topic/3
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
+---
+2015/04/03 14:36:50 [error] [exception.CException] exception 'CException' with message 'Property "TbListView.type" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('type', 'striped bordere...')
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TopicController), 'bootstrap.widge...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_authorTopics.php(17): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#7 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php(43): CController->renderPartial('comments/_autho...', Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(70): CController->render('view', Array)
+#13 [internal function]: TopicController->actionView('3')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TopicController), Array)
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TopicController), Object(ReflectionMethod), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/view')
+#26 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiitest/public/topic/3
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
+---
+2015/04/03 14:37:02 [error] [exception.CException] exception 'CException' with message 'Property "TbListView.hideHeader" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('hideHeader', true)
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TopicController), 'bootstrap.widge...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_authorTopics.php(17): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#7 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php(43): CController->renderPartial('comments/_autho...', Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(70): CController->render('view', Array)
+#13 [internal function]: TopicController->actionView('3')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TopicController), Array)
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TopicController), Object(ReflectionMethod), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/view')
+#26 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiitest/public/topic/3
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
+---
+2015/04/03 14:37:09 [error] [exception.CException] exception 'CException' with message 'Property "TbListView.hideHeader" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('hideHeader', true)
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TopicController), 'bootstrap.widge...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_authorTopics.php(17): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#7 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php(43): CController->renderPartial('comments/_autho...', Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(70): CController->render('view', Array)
+#13 [internal function]: TopicController->actionView('3')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TopicController), Array)
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TopicController), Object(ReflectionMethod), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/view')
+#26 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiitest/public/topic/3
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
+---
+2015/04/03 14:37:10 [error] [exception.CException] exception 'CException' with message 'Property "TbListView.columns" is not defined.' in /home/roopz/www/dksh2/vendors/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('columns', Array)
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(TopicController), 'bootstrap.widge...', Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/comments/_authorTopics.php(17): CBaseController->widget('bootstrap.widge...', Array)
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#7 /home/roopz/www/dksh2/yiitest/public/themes/classic/views/topic/view.php(43): CController->renderPartial('comments/_autho...', Array)
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(126): require('/home/roopz/www...')
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/roopz/www...', Array, true)
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/roopz/www...', Array, true)
+#11 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(782): CController->renderPartial('view', Array, true)
+#12 /home/roopz/www/dksh2/yiitest/app/controllers/TopicController.php(70): CController->render('view', Array)
+#13 [internal function]: TopicController->actionView('3')
+#14 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(TopicController), Array)
+#15 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(TopicController), Object(ReflectionMethod), Array)
+#16 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#25 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('topic/view')
+#26 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#28 {main}
+REQUEST_URI=/yiitest/public/topic/3
+HTTP_REFERER=http://dksh2.test/yiitest/public/topic/5
+---
+2015/04/03 10:20:30 [warning] [application] Failed to set unsafe attribute "remember" of "UserLoginForm".
+in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/AuthController.php (22)
+in /home/roopz/www/dksh2/yiitest/public/index.php (16)
+2015/04/03 10:21:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Error::File uploading failed.' in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/UserController.php:106
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): UserController->actionSettingsProfile()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('settingsprofile')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/user/setti...')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiitest/public/user/user/settingsprofile
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/user/settingsprofile
+---
+2015/04/03 10:26:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Error::File uploading failed.' in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/UserController.php:106
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): UserController->actionSettingsProfile()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('settingsprofile')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/user/setti...')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiitest/public/user/user/settingsprofile
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/user/settingsprofile
+---
+2015/04/03 10:30:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Error::File uploading failed.' in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/UserController.php:106
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): UserController->actionSettingsProfile()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('settingsprofile')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/user/setti...')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiitest/public/user/user/settingsprofile
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/user/settingsprofile
+---
+2015/04/03 10:30:34 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Error::File uploading failed.' in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/UserController.php:106
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): UserController->actionSettingsProfile()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('settingsprofile')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/user/setti...')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiitest/public/user/user/settingsprofile
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/user/settingsprofile
+---
+2015/04/03 10:32:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Error::File uploading failed.' in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/UserController.php:106
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): UserController->actionSettingsProfile()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('settingsprofile')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/user/setti...')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiitest/public/user/user/settingsprofile
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/user/settingsprofile
+---
+2015/04/03 10:33:09 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Error::File uploading failed.' in /home/roopz/www/dksh2/yiitest/app/modules/user/controllers/UserController.php:106
+Stack trace:
+#0 /home/roopz/www/dksh2/vendors/yii/framework/web/actions/CInlineAction.php(49): UserController->actionSettingsProfile()
+#1 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#2 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#3 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#5 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 /home/roopz/www/dksh2/vendors/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#7 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/roopz/www/dksh2/vendors/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(282): CController->run('settingsprofile')
+#10 /home/roopz/www/dksh2/vendors/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/user/setti...')
+#11 /home/roopz/www/dksh2/vendors/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/roopz/www/dksh2/yiitest/public/index.php(16): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiitest/public/user/user/settingsprofile
+HTTP_REFERER=http://dksh2.test/yiitest/public/user/user/settingsprofile
+---

@@ -24,7 +24,7 @@ class UserController extends Controller
 		return array(
 			array(
 				'allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions' => array('AjaxGetCityList', 'SettingsProfile'), 'users' => array('@'),
+				'actions' => array('index','AjaxGetCityList', 'settingsProfile'), 'users' => array('@'),
 			),
 			array(
 				'deny', // deny all users

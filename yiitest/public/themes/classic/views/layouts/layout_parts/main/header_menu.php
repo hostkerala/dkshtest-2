@@ -32,7 +32,7 @@
                             'items'=>array(
                                 array(
                                     'label'=>'Profile',
-                                    'url'=>Yii::app()->createUrl('user/user/settingsprofile')
+                                    'url'=>Yii::app()->createUrl('user/user/settingsProfile')
                             ),
                                 array(
                                     'label'=>'Logout',
